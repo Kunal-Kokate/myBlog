@@ -26,36 +26,40 @@
 
 <!-- ⬇️ Typing effect script for Title in homeInfoParams -->
 <script>
-  const words = [
-    "a Database Developer 💻",
-    "a movie buff 🎥",
-    "a nature lover ⛰️",
-    "a fútbol fan ⚽",
-    "a stand-up paddleboarder 🏄‍♂️"
-  ];
-  let i = 0, j = 0, isDeleting = false;
-  const typedText = document.getElementById("typed-text");
+  document.addEventListener("DOMContentLoaded", function () {
+    const words = [
+      "a Database Developer 💻",
+      "a movie buff 🎥",
+      "a nature lover 🥾",
+      "a fútbol fan ⚽",
+      "a stand-up paddleboarder 🏄‍♂️"
+    ];
+    let i = 0, j = 0, isDeleting = false;
+    const typedText = document.getElementById("typed-text");
 
-  function type() {
-    if (!typedText) return;
-    const current = words[i];
-    typedText.textContent = current.substring(0, j);
+    if (!typedText) return; // safeguard
 
-    if (!isDeleting && j < current.length) {
-      j++;
-      setTimeout(type, 100);
-    } else if (isDeleting && j > 0) {
-      j--;
-      setTimeout(type, 50);
-    } else {
-      isDeleting = !isDeleting;
-      if (!isDeleting) i = (i + 1) % words.length;
-      setTimeout(type, 1000);
+    function type() {
+      const current = words[i];
+      typedText.textContent = current.substring(0, j);
+
+      if (!isDeleting && j < current.length) {
+        j++;
+        setTimeout(type, 100);
+      } else if (isDeleting && j > 0) {
+        j--;
+        setTimeout(type, 50);
+      } else {
+        isDeleting = !isDeleting;
+        if (!isDeleting) i = (i + 1) % words.length;
+        setTimeout(type, 1000);
+      }
     }
-  }
 
-  document.addEventListener("DOMContentLoaded", type);
+    type(); // Start typing
+  });
 </script>
+
 
 <style>
   #cursor {
