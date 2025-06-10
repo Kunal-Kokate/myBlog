@@ -5,7 +5,7 @@ theme: PaperMod
 
 params:
   homeInfoParams: 
-    Title: "Hi I'm Kunal"
+    Title: "Hi 👋 I'm Kunal"
     Content: 'Welcome to my digital notes.'
   socialIcons:
     - name: linkedin
