@@ -1,7 +1,7 @@
 ---
 date: '2025-06-10T08:59:45-05:00'
 draft: false
-title: 'Dbtfundamentals'
+title: 'DBT Fundamentals'
 tags: ["DBT", "Data Analysts", "Data Engineers"]
 categories: ["DBT"]
 ---
