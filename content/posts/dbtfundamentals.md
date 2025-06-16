@@ -50,7 +50,13 @@ Really in charge of the T in ELT
 - This then frees up the data engineer to focs on the extracting from sources and then loading into the data warehouse or the EL in ELT. 
 - THe analyst, they can work more closely with the analytics engineer to deliever these final tables that can then be queried with a BI tool in a much faster way so that they can get what they need when they need
 
-![image](/img/dbtAnalyticsEngineering.png "Table Showing Different Roles")
+![image](/img/dbtAnalyticsEngineering.png)
+
+### The Modern Data Stack and dbt
+- Loaders or EL tools extract data from data sources and load them into your data platform
+- BI Tools, ML Models, and Operational Analytics are then made
+- dbt works directly with your data platform to manage your transformations, test them, and then also document your transformations along the way
+![image](/img/dbtWorkflow.png)
 
 ## How dbt Works
 
