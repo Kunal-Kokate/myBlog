@@ -1,6 +1,7 @@
 ---
 date: '2025-06-15T08:59:45-05:00'
 draft: false
+toc: true
 title: 'dbt Fundamentals'
 tags: ["DBT", "Data Analysts", "Data Engineers"]
 categories: ["DBT", "Course Notes"]
