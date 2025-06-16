@@ -58,6 +58,13 @@ Really in charge of the T in ELT
 - dbt works directly with your data platform to manage your transformations, test them, and then also document your transformations along the way
 ![image](/img/dbtWorkflow.png)
 
+#### Overview of an Exemplar Project
+DAG - Directed Acyclic Graph - Shows the flow of data all the way from the source(green nodes) all hte way through the final model
+Blue nodes are called models and those map one to one with a table or view in your data platform
+
+Common dbt Command
+dbt run - run dbt command to build database models.
+
 ## How dbt Works
 
 
