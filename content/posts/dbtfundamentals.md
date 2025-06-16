@@ -6,23 +6,6 @@ tags: ["DBT", "Data Analysts", "Data Engineers"]
 categories: ["DBT", "Course Notes"]
 ---
 
-
-## Table of Contents
-
-- [Introduction to dbt](#introduction-to-dbt)
-- [How dbt Works](#how-dbt-works)
-- [Project Setup](#project-setup)
-- [Building Models](#building-models)
-- [Refactoring with `ref()`](#refactoring-with-ref)
-- [Testing Your Data](#testing-your-data)
-- [Documentation](#documentation)
-- [Sources and Seeds](#sources-and-seeds)
-- [Jinja and Macros](#jinja-and-macros)
-- [Deploying dbt](#deploying-dbt)
-- [Final Project](#final-project)
-- [Next Steps](#next-steps)
-
-
 ## Introduction to dbt
 - [dbt Fundamentals Course Link](https://learn.getdbt.com/courses/dbt-fundamentals)
 
