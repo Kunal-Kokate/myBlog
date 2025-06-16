@@ -50,7 +50,7 @@ Really in charge of the T in ELT
 - This then frees up the data engineer to focs on the extracting from sources and then loading into the data warehouse or the EL in ELT. 
 - THe analyst, they can work more closely with the analytics engineer to deliever these final tables that can then be queried with a BI tool in a much faster way so that they can get what they need when they need
 
-![image](static/img/dbtAnalyticsEngineering.png)
+![image](/img/dbtAnalyticsEngineering.png)
 
 ## How dbt Works
 
