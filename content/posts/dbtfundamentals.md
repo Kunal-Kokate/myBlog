@@ -39,6 +39,19 @@ This is extremelly useful because you can just take raw data, get that into your
  1. Get the data in the warehouse
  2. Transform the data from there
 
+ Cloud-base Data Warehouses Offer:
+ 1. Scalable compute
+ 2. Scalable storage
+ 3. Rduction of transfer time
+
+ ### Analytics Engineer
+- Analytics Engineer is focused on taking that raw data and transforming it into transformed data so that the analysts can take it from there and serve whatever needs the business has. 
+Really in charge of the T in ELT
+- This then frees up the data engineer to focs on the extracting from sources and then loading into the data warehouse or the EL in ELT. 
+- THe analyst, they can work more closely with the analytics engineer to deliever these final tables that can then be queried with a BI tool in a much faster way so that they can get what they need when they need
+
+![image](static/img/dbtAnalyticsEngineering.png)
+
 ## How dbt Works
 
 
