@@ -4,6 +4,8 @@ title: Home
 theme: PaperMod
 
 params:
+  toc: true
+  tocOpen: true
   homeInfoParams: 
     Title: "Hi 👋 I’m Kunal"
     Content: 'Welcome to my digital notes.'
