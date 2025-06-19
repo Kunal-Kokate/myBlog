@@ -7,7 +7,7 @@ tags: ["DBT", "Data Analysts", "Data Engineers"]
 categories: ["DBT", "Course Notes"]
 ---
 
-## Introduction to dbt
+## Introduction to dbtg
 - [dbt Fundamentals Course Link](https://learn.getdbt.com/courses/dbt-fundamentals)
 
 ### Traditional Data Teams
