@@ -1,7 +1,7 @@
 ---
 date: '2025-05-12T01:59:49-05:00'
 draft: false
-toc: true
+showToc: true
 title: 'Investing101 Course Notes'
 tags: ["DBT", "Data Analysts", "Data Engineers"]
 categories: ["Stocks", "Investing"]
