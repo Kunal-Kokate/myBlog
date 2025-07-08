@@ -3,7 +3,7 @@ date: '2025-07-08T11:11:11-05:00'
 draft: false
 toc: true
 title: 'AI For Everyone Course Notes'
-tags: ["SI", "", ""]
+tags: ["AI", "", ""]
 categories: ["AI", "Course Notes"]
 ---
 
@@ -47,8 +47,8 @@ Artificial General Intelligence (AGI) describes a hypothetical form of AI that w
 Supervised learning is a type of machine learning where the model learns to map an input (A) to an output (B). You train the model on a dataset that includes both inputs and their corresponding correct outputs.
 
 **Concept:**
-A --> B
-Input --> Output
+A --> B    
+Input --> Output  
 
 
 ### Examples
