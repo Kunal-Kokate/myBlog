@@ -46,7 +46,7 @@ Artificial General Intelligence (AGI) describes a hypothetical form of AI that w
 
 Supervised learning is a type of machine learning where the model learns to map an input (A) to an output (B). You train the model on a dataset that includes both inputs and their corresponding correct outputs.
 
-**Concept:**
+**Concept:**  
 A --> B    
 Input --> Output  
 
