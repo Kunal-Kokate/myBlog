@@ -67,3 +67,65 @@ Input --> Output
 - The "0/1" indicates a binary decision (e.g., spam or not spam, defect or no defect).
 - The model learns from labeled examples (datasets where the correct answer is provided) to predict outputs on new, unseen data.
 
+
+# How large language models (LLMs) work
+- LLMs are built by using supervised learning (A->B) to repeatedly predict the next word
+
+    My favorite drink is lychee bubble tea.
+| **Input (A)**       | **Output (B)**            |
+|---------------------|---------------------------|
+| My favorite drink               | is               |
+| My favorite drink is               | lychee         | 
+| My favorite drink is lychee             | bubble                   | 
+| My favorite drink is lychee bubble       | tea             | 
+
+- When we train a very large AI system on a lot of data (hundreds of billions of words) we get a Large Language Model like ChatGPT
+
+# Acquiring Data
+
+There are different ways to collect data for AI projects:
+
+## Manual Labeling
+
+- Collect a set of images (or other data).
+- Have humans manually go through each example and label it (e.g., "cat" vs "dog" or "defect" vs "no defect").
+
+## Observing Behaviors
+
+- Gather data by observing how people behave or interact with a system.
+- Useful for capturing natural patterns and real-world scenarios.
+
+## Downloading from Websites or Partnerships
+
+- Obtain data by scraping websites (when permitted).
+- Partner with other organizations or companies to access relevant datasets.
+
+---
+
+# Use and Misuse of Data
+
+## Common Misunderstandings
+
+- You can’t just throw a pile of data at an AI team and expect it to automatically be useful or valuable.
+- Data quality and relevance are crucial.
+
+## Data is Messy
+
+- **"Garbage in, garbage out":** Poor-quality data will lead to poor AI performance.
+- Common data issues include:
+  - Errors and noise
+  - Missing or incomplete values
+  - Incorrect labels
+
+## Multiple Types of Data
+
+- **Unstructured data:** Images, audio, text (requires more processing to extract meaning).
+- **Structured data:** Data stored in tables (e.g., spreadsheets or databases), with clearly defined fields.
+
+---
+
+**Key Takeaway:**  
+Good data is the foundation of effective AI. Without clean, relevant, and properly labeled data, even the best algorithms will fail.
+
+
+
