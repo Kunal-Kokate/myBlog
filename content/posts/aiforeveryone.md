@@ -191,3 +191,100 @@ AI is a broad field that includes many techniques and subfields, such as:
 
 **Key Takeaway:**  
 Machine learning builds systems that map input to output (A → B). Data science focuses on analyzing data to generate insights. Deep learning is a powerful modern approach to machine learning, using neural networks.
+
+
+# What Makes an AI Company?
+
+## A Lesson from the Rise of the Internet
+
+### Internet Era
+
+- If you take your favorite shopping mall and simply create a website to sell things, that does **not** make it an "Internet company."
+- An Internet company is one that truly leverages what the Internet enables:
+  - A/B testing at scale
+  - Short iteration cycles and rapid updates
+  - Decision-making pushed down to engineers and specialized teams rather than centralized executives
+
+---
+
+## AI Era
+
+- Similarly, just adding a few deep learning models to your existing business does **not** make it an AI company.
+- A true AI company focuses on:
+  - **Strategic data acquisition** — intentionally collecting valuable data that gives a competitive advantage
+  - **Unified data warehouse** — integrating data sources into a single, well-organized system
+  - **Pervasive automation** — using AI to automate processes across the organization
+  - **New roles and division of labor** — creating roles like machine learning engineers and rethinking team structures to support AI efforts
+
+---
+
+## AI Transformation
+
+For traditional companies that want to effectively use AI, these are common steps:
+
+1. **Execute pilot projects** to build early success and momentum.
+2. **Build an in-house AI team** with dedicated experts and resources.
+3. **Provide broad AI training** so more employees understand and can contribute to AI initiatives.
+4. **Develop an AI strategy** to guide long-term decisions and investments.
+5. **Develop internal and external communications** to align teams and share the company’s AI vision clearly.
+
+---
+
+# What AI Can and Cannot Do
+
+## Developing Intuition for AI Projects
+
+Before committing to an AI project, it’s important to evaluate whether it is actually feasible. This involves doing technical diligence:  
+- Identify **input (A)** and **output (B)** clearly.  
+- Consider whether this mapping can realistically be learned by AI.
+
+---
+
+## Overestimating AI
+
+- Many CEOs and leaders tend to overestimate what AI can do today.
+- The media and academic papers often focus only on success stories and positive results, creating a false impression that AI can do everything.
+- In reality, AI has clear limitations.
+
+---
+
+## An Imperfect Rule of Thumb
+
+A quick test:  
+> If a human can do the task in **one second of thought**, it is more likely to be automatable with supervised learning.
+
+**Examples of tasks that can likely be automated:**
+- Determining the position of other cars (for self-driving cars)
+- Detecting if a phone is scratched
+- Transcribing speech into text
+
+---
+
+## Tasks AI Cannot Do Well Today
+
+**Example:** Predicting stock prices  
+- Task: Given past stock prices (input A), predict future prices (output B).
+- Problem: Historical stock prices alone are not predictive enough.
+- Attempts often fail because future prices are highly random and influenced by many unpredictable factors.
+
+**Note:**  
+Some traders try to use additional data (e.g., web traffic, foot traffic) to improve predictions, but these inputs are hard to get and don’t completely solve the problem.
+
+---
+
+## Additional Rules of Thumb for Feasibility
+
+1. **Simple concepts are easier to learn.**  
+   - If it takes you only a second or a few seconds to make a decision, it is likely a "simple concept."
+
+2. **More data makes problems more feasible.**  
+   - You need lots of examples of both input (A) and output (B).
+   - Example: To detect phone scratches, you need thousands of labeled images (scratched vs. not scratched).
+
+---
+
+## Final Thoughts
+
+- AI is like electricity: powerful and transformative, but not magic.
+- You cannot expect AI to do everything.
+- Building strong intuition helps you choose realistic and valuable projects for your team or company.
