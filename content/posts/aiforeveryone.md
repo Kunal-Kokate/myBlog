@@ -129,3 +129,65 @@ Good data is the foundation of effective AI. Without clean, relevant, and proper
 
 
 
+# Terminology of AI
+
+## Machine Learning vs. Data Science
+
+Imagine you have a housing dataset with:
+- Size of house (sq ft)
+- Number of bedrooms
+- Number of bathrooms
+- Whether it is newly renovated
+- Price (in $1,000s)
+
+### Machine Learning
+
+If you want to build a mobile app to help people estimate house prices, you would use:
+- **Inputs (A):** Size, number of bedrooms, number of bathrooms, renovated status
+- **Output (B):** Price
+
+A machine learning system learns the mapping from A to B (input to output).
+
+**Definition:**  
+> "Field of study that gives computers the ability to learn without being explicitly programmed." — Arthur Samuel (1959)
+
+- The output is usually a piece of software that, given new inputs, can predict outputs automatically.
+- **Example:** A pricing model for homes.
+
+---
+
+### Data Science
+
+Data science focuses on analyzing data to extract insights and knowledge.
+
+**Example conclusions:**
+- "Homes with 3 bedrooms are more expensive than those with 2 bedrooms of similar size."
+- "Newly renovated homes sell at a 15% premium."
+
+- The output is often a report, slide deck, or presentation summarizing these insights.
+- **Example:** A presentation showing price trends in different neighborhoods.
+
+---
+
+## Deep Learning
+
+- A type of machine learning that uses **artificial neural networks** to learn complex patterns from data.
+- Takes input(s) A and predicts output B.
+- Very effective for tasks where traditional methods struggle, such as image recognition, speech recognition, and natural language understanding.
+
+---
+
+## AI Has Many Tools
+
+AI is a broad field that includes many techniques and subfields, such as:
+- **Machine learning** and **data science**
+- **Deep learning** / neural networks
+- **Generative AI** (e.g., models that create text or images)
+- **Unsupervised learning** (finding patterns without labeled outputs)
+- **Reinforcement learning** (learning through trial and error to maximize rewards)
+- **Graphical models**, **planning**, **knowledge graphs**, and more
+
+---
+
+**Key Takeaway:**  
+Machine learning builds systems that map input to output (A → B). Data science focuses on analyzing data to generate insights. Deep learning is a powerful modern approach to machine learning, using neural networks.
