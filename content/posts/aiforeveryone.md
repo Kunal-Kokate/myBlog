@@ -7,7 +7,8 @@ tags: ["AI", "", ""]
 categories: ["AI", "Course Notes"]
 ---
 
-# AII
+# AI
+# AI
 
 Artificial Intelligence (AI) refers to machines or software that can perform tasks typically requiring human intelligence. It can be categorized into different types:
 
