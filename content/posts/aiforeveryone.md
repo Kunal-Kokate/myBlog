@@ -366,7 +366,7 @@ Some traders try to use additional data (e.g., web traffic, foot traffic) to imp
 
 ---
 
-## ✅ Key takeaways
+**Key takeaways**
 
 - Neural networks can learn **complex mappings** from inputs to outputs.
 - Require **large datasets** for training.
