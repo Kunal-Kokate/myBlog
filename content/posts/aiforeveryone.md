@@ -288,3 +288,92 @@ Some traders try to use additional data (e.g., web traffic, foot traffic) to imp
 - AI is like electricity: powerful and transformative, but not magic.
 - You cannot expect AI to do everything.
 - Building strong intuition helps you choose realistic and valuable projects for your team or company.
+
+---
+
+# 🌟 Notes on Deep Learning & Neural Networks
+
+## 💡 Neural networks & deep learning
+
+- The terms **deep learning** and **neural network** are often used interchangeably in AI.
+- Neural networks are a fundamental tool in deep learning.
+- There is hype and mystique around them, but at their core, they are systems that **learn to map inputs to outputs**.
+
+---
+
+## 👕 Example: T-shirt demand prediction
+
+### Simple case (single neuron)
+
+- Goal: Predict how many t-shirts you'll sell based on price.
+- **Input**: Price of the t-shirt.
+- **Output**: Estimated demand.
+- Can be represented as a **straight line** showing that higher prices reduce demand.
+- This setup = one **artificial neuron**, mapping price to demand.
+
+### More complex case (small network)
+
+- Additional factors:
+  - Shipping cost.
+  - Marketing budget.
+  - Material quality.
+- Intermediate concepts (hidden neurons):
+  - **Affordability**: Based on price and shipping cost.
+  - **Awareness**: Based on marketing.
+  - **Perceived quality**: Based on price, marketing, and material.
+- These intermediate factors are computed by **hidden neurons**.
+- Final neuron combines them to estimate demand.
+- In practice, modern networks have **thousands or millions of neurons**, much more complex than this example.
+
+---
+
+## 🧱 Key idea: Neurons like Lego blocks
+
+- Each neuron performs a simple computation.
+- By stacking many neurons together, you can represent **very complex functions**.
+- You do **not** manually program the intermediate steps — the network **learns them from data**.
+
+---
+
+## 🤖 Training neural networks
+
+- Provide:
+  - **Inputs (A)**: E.g., price, shipping, marketing.
+  - **Outputs (B)**: E.g., actual demand.
+- The network automatically learns the best way to map A → B, including figuring out what intermediate neurons should compute.
+
+---
+
+## 🧑‍🦰 Example: Face recognition
+
+### How a computer "sees" images
+
+- Images = grid of pixel values.
+  - Grayscale: One number per pixel.
+  - Color: Three numbers per pixel (red, green, blue).
+- Example: 1000 × 1000 color image = 3 million numbers.
+
+### What the neural network does
+
+- **Input**: Pixel brightness values.
+- **Hidden layers**:
+  - Early neurons detect **edges**.
+  - Middle neurons detect **object parts** (eyes, noses, mouths).
+  - Later neurons identify **whole faces**.
+- **Output**: Person’s identity.
+
+- You do **not** program how to find edges or faces — the network figures this out on its own.
+
+---
+
+## ✅ Key takeaways
+
+- Neural networks can learn **complex mappings** from inputs to outputs.
+- Require **large datasets** for training.
+- No need to explicitly define intermediate features.
+- Applications include:
+  - Demand prediction
+  - Face recognition
+  - Speech recognition
+  - And many more.
+
