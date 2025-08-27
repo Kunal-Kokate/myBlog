@@ -1,6 +1,6 @@
 ---
 date: '2025-05-12T01:59:49-05:00'
-draft: false
+draft: true
 showToc: true
 tocOpen: false
 title: 'Investing101 Course Notes'

@@ -1,6 +1,6 @@
 ---
 date: '2025-07-08T11:11:11-05:00'
-draft: false
+draft: true
 toc: true
 title: 'AI For Everyone Course Notes'
 tags: ["AI", "", ""]

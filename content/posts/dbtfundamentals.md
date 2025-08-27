@@ -1,6 +1,6 @@
 ---
 date: '2025-06-15T08:59:45-05:00'
-draft: false
+draft: true
 showToc: true
 tocOpen: false
 title: 'dbt Fundamentals'
