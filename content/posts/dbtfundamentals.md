@@ -4,7 +4,6 @@ draft: true
 showToc: true
 tocOpen: false
 title: 'dbt Fundamentals'
-tags: ["DBT", "Data Analysts", "Data Engineers"]
 categories: ["DBT", "Course Notes"]
 ---
 

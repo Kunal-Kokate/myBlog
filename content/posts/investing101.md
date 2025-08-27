@@ -4,7 +4,6 @@ draft: true
 showToc: true
 tocOpen: false
 title: 'Investing101 Course Notes'
-tags: ["DBT", "Data Analysts", "Data Engineers"]
 categories: ["Stocks", "Investing"]
 ---
 - [Investing101 Course Link](https://investing101.net/courses/beginners-investing-course/)
